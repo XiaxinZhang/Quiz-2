@@ -18,7 +18,7 @@ public class Tuition {
 		double Tuition = InitialTuition;
 		
 		for (int i = 0; i < 3; i++) {
-			Tuition += 	InitialTuition * (1 + (IncreasedPercentage)/100);
+			Tuition += InitialTuition * (1 + (IncreasedPercentage)/100);
 			InitialTuition = InitialTuition * (1 + (IncreasedPercentage)/100);
 		
 		}
